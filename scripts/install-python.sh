@@ -35,4 +35,8 @@ cd Python-3.6.4
 ./configure --enable-optimizations
 make altinstall
 pip3.6 install --upgrade pip
+
+
+pip3.6 install virtualenv
+
 exit
