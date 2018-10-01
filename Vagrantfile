@@ -29,19 +29,19 @@ ensure_plugins required_plugins
 
 
 Vagrant.configure(2) do |config|
-  config.vm.define "golang-box" do |box1_config|
+  config.vm.define "python-box" do |box1_config|
     box1_config.vm.box = "bento/centos-7.5"
-    box1_config.vm.hostname = "box1.local"
-    box1_config.vm.network "private_network", ip: "10.0.8.11", :netmask => "255.255.255.0"
+    box1_config.vm.hostname = "pythonbox1.local"
+    box1_config.vm.network "private_network", ip: "10.0.80.11", :netmask => "255.255.255.0"
 
     box1_config.vm.provider "virtualbox" do |vb|
       vb.gui = true
       vb.memory = "1024"
       vb.cpus = 2
-      vb.name = "centos7_golang"
+      vb.name = "centos7_python"
     end
 
     box1_config.vm.provision "shell", path: "scripts/install-rpms.sh", privileged: true
-    box1_config.vm.provision "shell", path: "scripts/install-golang.sh", privileged: true
+    box1_config.vm.provision "shell", path: "scripts/install-python.sh", privileged: true
   end
 end
