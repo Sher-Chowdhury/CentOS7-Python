@@ -37,9 +37,9 @@ make altinstall
 
 
 sleep 10
-pip3.6 install --upgrade pip
+/usr/local/bin/pip3.6 install --upgrade pip
 
 
-pip3.6 install virtualenv
+/usr/local/bin/pip3.6 install virtualenv
 
 exit
