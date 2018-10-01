@@ -34,6 +34,9 @@ tar xf Python-3.6.4.tar.xz
 cd Python-3.6.4
 ./configure --enable-optimizations
 make altinstall
+
+
+sleep 10
 pip3.6 install --upgrade pip
 
 
