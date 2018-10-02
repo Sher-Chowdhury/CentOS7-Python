@@ -10,3 +10,4 @@ print('hello world')
 print(type('this is a string'))
 print(type(1234))
 
+help(str)
