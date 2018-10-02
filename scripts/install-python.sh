@@ -8,7 +8,7 @@ echo '##########################################################################
 
 #pip install --upgrade pip
 #pip install virtualenv
-#yum -y update
+#yum -y update    # don't do this because it will cause vagrant restart to fail. 
 yum install -y gcc openssl-devel bzip2-devel
 
 yum groupinstall -y "development tools"
