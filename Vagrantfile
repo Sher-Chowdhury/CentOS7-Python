@@ -35,7 +35,7 @@ Vagrant.configure(2) do |config|
     box1_config.vm.network "private_network", ip: "10.0.80.11", :netmask => "255.255.255.0"
 
     box1_config.vm.provider "virtualbox" do |vb|
-      vb.gui = true
+      vb.gui = false 
       vb.memory = "1024"
       vb.cpus = 2
       vb.name = "centos7_python"

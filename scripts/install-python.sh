@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -ex
 
 
@@ -9,7 +8,7 @@ echo '##########################################################################
 
 #pip install --upgrade pip
 #pip install virtualenv
-yum -y update
+#yum -y update
 yum install -y gcc openssl-devel bzip2-devel
 
 yum groupinstall -y "development tools"
@@ -35,8 +34,6 @@ cd Python-3.6.4
 ./configure --enable-optimizations
 make altinstall
 
-
-sleep 10
 /usr/local/bin/pip3.6 install --upgrade pip
 
 
