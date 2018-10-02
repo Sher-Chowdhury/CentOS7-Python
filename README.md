@@ -26,5 +26,20 @@ Type "help", "copyright", "credits" or "license" for more information.
 python gives meaning to whitespace. you do indents for thinks like if-else statements, loops, functions, classes, etc.
 
 
+by conventions:
+ - indent using spaces
+ - always indent by 4 spaces. 
+For more info about these conventions, see:
+https://www.python.org/dev/peps/pep-0008/?
+Also see the zen of python:
+https://www.python.org/dev/peps/pep-0020/
+or just run:
+>>> import this
+
+
+
+
+
+
 
 
