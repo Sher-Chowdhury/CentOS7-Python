@@ -23,3 +23,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print(x)
 5
 
+python gives meaning to whitespace. you do indents for thinks like if-else statements, loops, functions, classes, etc.
+
+
+
+
