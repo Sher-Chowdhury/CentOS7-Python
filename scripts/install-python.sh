@@ -42,4 +42,6 @@ make altinstall
 
 echo "alias py='python3.6'" >> ~/.bashrc
 
+ln -s /vagrant/files/python_by_examples python_by_examples
+
 exit
