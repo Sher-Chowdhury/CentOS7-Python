@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.6
+
 if __name__ == "__main__":
     print("This script has been executed directory from the bash terminal: " + __name__)
 else: 

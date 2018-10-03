@@ -1,3 +1,5 @@
+#!/usr/bin/env python3.6
+
 import secondlevel
 
 # __name__ is a special environment that's used to keep track of what level a piece of code is being executed. 
@@ -15,4 +17,4 @@ print(__name__)
 # secondlevel
 # __main__
 
-
+print(secondlevel.__file__)
