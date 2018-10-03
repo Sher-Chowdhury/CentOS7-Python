@@ -36,8 +36,21 @@ https://www.python.org/dev/peps/pep-0020/
 or just run:
 >>> import this
 
+'import' is a statement. for more about statements see:
+
+https://docs.python.org/3/reference/simple_stmts.html
+
+to view documents about 
 
 
+To view a module's man page, e.g. regular expressions (re) which is in the standard library, do:
+
+[root@pythonbox1 ~]# python3.6
+Python 3.6.4 (default, Oct  2 2018, 09:39:42)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-28)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import re
+>>> help(re)
 
 
 

@@ -39,4 +39,7 @@ make altinstall
 
 /usr/local/bin/pip3.6 install virtualenv
 
+
+echo "alias py='python3.6'" >> ~/.bashrc
+
 exit
