@@ -1,3 +1,8 @@
+"""
+This script contains one function called hello
+"""
+
+
 def hello(name):
     """This function provides a greetings message
 
@@ -35,4 +40,41 @@ hello("codingbee")
 #    Returns:
 #      Prints out a tailored greetings message.
 #(END)
+
+
+
+# Alternatively if you do:
+
+# >>> help(documentation_using_docstrings)
+
+
+# you end up with:
+
+
+#Help on module documentation_using_docstrings:
+#
+#NAME
+#    documentation_using_docstrings - This script contains one function called hello
+#
+#FUNCTIONS
+#    hello(name)
+#        This function provides a greetings message
+#
+#        Arg:
+#          name: requires name.
+#
+#        Returns:
+#          Prints out a tailored greetings message.
+#
+#FILE
+#    /vagrant/files/python_by_examples/making_code_modular/documentation_using_docstrings.py
+#
+#(END)
+
+
+
+
+
+
+
 
