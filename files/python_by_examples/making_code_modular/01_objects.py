@@ -16,8 +16,10 @@ y = "hello world"
 print(y)
 print(type(y))
 
-# the following prints all the public methods available in the str class. 
-print(dir(str))
+# the dir builtin function prints all the public methods available in the given object's class: 
+print(dir(y))
+# https://docs.python.org/3.3/library/functions.html#dir
+
 
 # you can use the builtin help function in repl mode to read man page for this class's public methods:
 # help(str)
