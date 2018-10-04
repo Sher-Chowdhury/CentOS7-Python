@@ -2,3 +2,4 @@
 .vagrant/*
 .vscode
 __pycache__
+.swp
