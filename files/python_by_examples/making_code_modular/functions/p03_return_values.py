@@ -1,7 +1,15 @@
 def hello(var1, var2):
-    return var1 * 100
-    return var2 * 1000
+    x =  var1 * 100
+    y = var2 * 1000
+    return x, y
 
-theresults = hello(3,5)
+# this function returns multiple values, and here's how to capture them. 
+xvalue, yvalue = hello(3,5)
+print(xvalue)
+print(yvalue)
 
-print(theresults)
+
+
+zvalue = hello(2,4)
+print(zvalue[0])
+print(zvalue[1])
