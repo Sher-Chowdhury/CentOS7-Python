@@ -1,3 +1,4 @@
+# https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/
 def hello(var1, var2):
     x =  var1 * 100
     y = var2 * 1000
