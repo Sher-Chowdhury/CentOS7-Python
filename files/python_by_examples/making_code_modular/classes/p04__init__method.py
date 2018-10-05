@@ -1,6 +1,8 @@
 # https://micropyramid.com/blog/understand-self-and-__init__-method-in-python-class/
 class Rectangle:
-   # The first argument is the name to give to label object itself. This by convention is set to 'self', but I've changed it 
+
+   # this is an instance method with the special name of "__init__". This gets executed automatically when you instantiate a new object. 
+   # The first argument is the name given to label the object itself. This by convention is set to 'self', but I've changed it 
    # to 'myself' to show it's possible to change this.  
    def __init__(myself, length, breadth, unit_cost=0):
        myself.length = length
@@ -19,6 +21,7 @@ class Rectangle:
        return 10
 
 
+# no need to create an object to use the following static method
 print(Rectangle.futureunitcost())
 
 
