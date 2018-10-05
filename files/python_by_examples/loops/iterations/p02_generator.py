@@ -23,17 +23,25 @@ fruits_iterator = iter(fruits)
 # https://docs.python.org/3.3/library/functions.html
 
 
-
+# a genarotor is simply a functions that contains one or more 'yield' lines. 
 def fruits():
+  print("about to print apple")
   yield 'apple'
+  print("about to print oranges")
   yield 'oranges'
+  print("about to print banana")
   yield 'banana'
+  print("about to print plum")
   yield 'plum'
 
 fruit = fruits()
 
 print(type(fruit))
+
 print(next(fruit))
 print(next(fruit))
 print(next(fruit))
 print(next(fruit))
+
+
+# the yield command effectively pauses the function until the next 'next' command is executed. 
